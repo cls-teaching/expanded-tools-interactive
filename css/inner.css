@@ -1,0 +1,88 @@
+p {
+    text-align: left;
+}
+
+h3, h4 {
+    color: tomato;
+    font-family: "Garamond Premier Pro";
+    text-align: left;
+    text-transform: none;
+    width: 49vw;
+    margin: auto;
+    font-size: .75em;
+}
+
+ul, li {
+    font-family: "Garamond Premier Pro";
+    text-transform: none;
+}
+
+ul {
+    width: 49vw;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 1em;
+    list-style-position: inside;
+}
+
+li {
+    list-style-type: disc;
+    font-size: .5em;
+    line-height: 1.4em;
+    text-align: left;
+}
+
+span.i {
+    color: yellow;
+    position: fixed;
+    top: 0em;
+    left: 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 99vh;
+    text-align: left;
+    z-index: 99;
+    padding-left: .5em;
+    width: 22vw;
+} span.i:hover {
+    cursor: pointer;
+}
+
+nav {
+	background-color: transparent;
+    position: fixed;
+    top: 0em;
+    left: 0em;
+    border-color: transparent;
+    display: none;
+} nav:hover {
+} nav h2 {
+	font-size: 1.25em;
+    transition: all .5s;
+} nav h2:hover {
+    background-color: yellow;
+    cursor: pointer;
+    border-color: transparent;
+}
+
+div.running-head {
+    position: fixed;
+    z-index: 0;
+    height: 100vh;
+    width: 1.75em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+} div.running-head span {
+    font-family: "Garamond Premier Pro";
+    text-transform: none;
+    font-size: .4em;
+    margin: 2em 0;
+    transform: rotate(90deg);
+    min-width: 14em;
+     color: tomato; 
+}

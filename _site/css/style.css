@@ -1,0 +1,169 @@
+* {
+	font-family: "Caelo";
+    font-size: 3vw;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    z-index: 1;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+p {
+	font-family: "Garamond Premier Pro";
+    text-transform: none;
+    font-size: .6em;
+    line-height: 1.4em;
+    width: 49vw;
+    margin: auto;
+    hyphens: manual;
+    margin-bottom: 1.4em;
+}
+
+p a {
+    font-family: "Garamond Premier Pro";
+    text-transform: none;
+    font-size: 1em;
+    padding-bottom: .1em;
+    padding-top: .1em;
+    border-bottom: .1em solid black;
+    transition: all .5s;
+} p a:hover {
+    background-color: yellow;
+    border-bottom-color: transparent;
+}
+
+h1 {
+    font-size: 2em;
+    line-height: 1.1em;
+    padding: .3em;
+    box-sizing: border-box;
+    border: .1em double black;
+    text-decoration: none;
+    color: black;
+    display: inline;
+}
+
+h2, h3, h4 {
+    line-height: 1.25em;
+}
+
+div.header {
+    margin: 1em;
+    margin-bottom: 2em;
+}
+
+div.back {
+	position: fixed;
+    top: 0.2em;
+    left: 10vw;
+    z-index: 1000;
+    height: 3.75em;
+    width: 10em;
+    line-height: 3.75em;
+    text-align: left;
+    background-color: transparent;
+    border-radius: 50%;
+    transition: color .5s;
+} div.back:hover {
+	color: rgba(0,0,0,.5);
+	cursor: pointer;
+}
+
+div#syllabus {
+	height: 82vh;
+    width: 78vw;
+    margin: auto;
+    overflow-y: scroll;
+    z-index: 1000;
+    background-color: cornsilk;
+    box-sizing: border-box;
+    padding: 1em;
+    flex-grow: 2;
+    position: absolute;
+    align-self: auto;
+    top: 1.4em;
+}
+
+.syllabus::-webkit-scrollbar-track { /* scrollbar styling lol */
+	background: white;
+} .syllabus::-webkit-scrollbar {
+	background: white;
+    width: 4px;
+} .syllabus::-webkit-scrollbar-thumb {
+	background-color: transparent;
+    border-left: .25em double black;
+}
+
+section#intro {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: space-around;
+	z-index: 1;
+	box-sizing: border-box;
+    border: .25em black solid;
+    padding-top: 1em;
+} section#intro h1 {
+	font-size: 1.75em;
+	line-height: 1em;
+	padding-bottom: .75em;
+} #intro h3 {
+	font-size: .75em;
+} #intro h1 {
+    border: none;
+}
+#info ul {
+    font-family: "Caelo";
+    list-style-type: none;
+} #info ul li {
+    font-family: "Caelo";
+    line-height: 1.25em;
+}
+
+nav {
+    background-color: #ffffffd9;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 101vh;
+    height: 100vh;
+    z-index: 100;
+    box-sizing: border-box;
+    border: 2em yellow solid;
+} nav h2 {
+	flex-grow: 1;
+	font-size: 2em;
+	line-height: 1.1em;
+	padding: .3em;
+	box-sizing: border-box;
+	border: .1em double transparent;
+	text-decoration: none;
+	color: black;
+	/*width: 100%;*/
+	transition: border .75s;
+} nav h2:hover {
+	border: .1em double black;
+	cursor: pointer;
+}
+
+section#people {
+	display: none;
+	background-color: red;
+	position: relative;
+	top: 100vh;
+}
