@@ -4,7 +4,7 @@ p {
 
 h3, h4 {
     color: tomato;
-    font-family: "Garamond Premier Pro";
+    font-family: "EB Garamond";
     text-align: left;
     text-transform: none;
     width: 49vw;
@@ -13,7 +13,7 @@ h3, h4 {
 }
 
 ul, li {
-    font-family: "Garamond Premier Pro";
+    font-family: "EB Garamond";
     text-transform: none;
 }
 
@@ -78,11 +78,24 @@ div.running-head {
     bottom: 0;
     right: 0;
 } div.running-head span {
-    font-family: "Garamond Premier Pro";
+    font-family: "EB Garamond";
     text-transform: none;
     font-size: .4em;
     margin: 2em 0;
     transform: rotate(90deg);
     min-width: 14em;
      color: tomato; 
+}
+
+section {
+    max-width: 49vw;
+    margin: auto;
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding: .5em 0;
+} section h2 {
+    text-align: left;
+    cursor: pointer;
+} section h2:hover {
+    background-color: yellow;
 }

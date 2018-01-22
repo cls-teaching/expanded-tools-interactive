@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Caelo";
+    src: url("Caelo-Medium.otf");
+}
+
 * {
 	font-family: "Caelo";
     font-size: 3vw;
@@ -19,7 +24,7 @@ a {
 }
 
 p {
-	font-family: "Garamond Premier Pro";
+	font-family: "EB Garamond";
     text-transform: none;
     font-size: .6em;
     line-height: 1.4em;
@@ -29,15 +34,15 @@ p {
     margin-bottom: 1.4em;
 }
 
-p a {
-    font-family: "Garamond Premier Pro";
+p a, li a {
+    font-family: "EB Garamond";
     text-transform: none;
     font-size: 1em;
     padding-bottom: .1em;
     padding-top: .1em;
     border-bottom: .1em solid black;
     transition: all .5s;
-} p a:hover {
+} p a:hover, li a:hover {
     background-color: yellow;
     border-bottom-color: transparent;
 }
