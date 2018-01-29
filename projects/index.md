@@ -4,4 +4,4 @@ layout: inner
 title: Projects
 
 ---
-TBD
+[Project 1: HTML Patterns](project-1)
