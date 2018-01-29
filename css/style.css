@@ -172,3 +172,9 @@ section#people {
 	position: relative;
 	top: 100vh;
 }
+
+img {
+    max-width: 49vw;
+    height: auto;
+    text-align: center;
+}

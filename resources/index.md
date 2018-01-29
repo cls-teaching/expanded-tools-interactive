@@ -4,4 +4,8 @@ layout: inner
 title: Resources
 
 ---
-TBD
+## Demos
+
+[Pattern Demo](/resources/demos/pattern)
+
+[Positioning Demo](/resources/demos/positioning)

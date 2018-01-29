@@ -1,6 +1,6 @@
 ---
 
-layout: inner-inner
+layout: inner
 title: Project 1
 
 ---
@@ -24,10 +24,9 @@ HTML and CSS don't always have to convey information; they can be used as drawin
 ### Week 1 — Jan 28
 
 - introduce project
-- CSS tagging demo
-- CSS positioning demo
+- [Pattern Demo](/resources/demos/pattern)
+- [Positioning Demo](/resources/demos/positioning)
 - [CSS shapes cheat sheet](https://css-tricks.com/examples/ShapesOfCSS/)
-- shapes template
 
 ### Week 2 — Feb 5
 
@@ -41,30 +40,30 @@ HTML and CSS don't always have to convey information; they can be used as drawin
 
 ## Inspiration
 
-![](https://static.notion-static.com/d828d922-4792-43af-89e2-d90e7d810608/Karel-Martens-untitled-2.jpg)
+![](/img/Karel-Martens-untitled-2.jpg)
 
 Karel Martens
 
-![](https://static.notion-static.com/ff833fa9-8084-4dac-a09f-31866e82a357/sol_lewitt_340.jpg)
+![](/img/sol_lewitt_340.jpg)
 
 Sol Lewitt
 
-![](https://static.notion-static.com/4815a91e-ce12-407f-8d0a-d7057dbfb17d/DP251467.jpg)
+![](/img/DP251467.jpg)
 
 Islamic tile work
 
-![](https://static.notion-static.com/6e0a281b-731e-4873-b2af-aa0cce3b0a66/044rt-1160x424.jpg)
+![](/img/044rt-1160x424.jpg)
 
 Mattisse cut outs
 
-![](https://static.notion-static.com/cf79eea0-778a-4e3d-af2a-ba52b1c3dcb0/DP306732.jpg)
+![](/img/DP306732.jpg)
 
 William Morris wallpaper
 
-![](https://static.notion-static.com/9be11501-a76f-4a49-8aee-7324ccc0dc24/05_269_focus_moniker_fungus_3_1.jpg)
+![](/img/05_269_focus_moniker_fungus_3_1.jpg)
 
 Conditional design, studio moniker
 
-![](https://static.notion-static.com/c2878f24-6066-435f-8be5-59e4a04c899c/AOA54_1979.206.1039.jpg)
+![](/img/AOA54_1979.206.1039.jpg)
 
 Navajo wearing blanket

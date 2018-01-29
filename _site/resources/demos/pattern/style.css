@@ -1,0 +1,121 @@
+/* This is a CSS comment! Use it
+   to organize code or turn CSS attributes
+   "off" without deleting code
+*/
+
+body {
+	background-color: blanchedalmond; /* sweet blanched almond */
+	margin: 0; /* on most browsers the body has a 
+				  default margin of 8px */
+}
+
+/*
+
+
+	You can use comments to make big divisions
+	in your code if you want !
+
+
+
+*/
+
+/* this is for all the <div> inside of
+	<div id="circles">
+	--> <div></div> <--
+*/
+#squares div{
+	height: 10vw; /* vw = viewport width — adjusts
+					 with the size of the browser */
+    width: 10vw;
+    background-color: tomato;
+    margin: 2vw;
+    float: right;
+}
+
+/* this is for all the class="blue" inside of
+	<div id="circles">
+	--> <div class="blue"></div> <--
+*/
+#squares .blue {
+	background-color: blue;
+}
+
+/* this is for all the id="yellow" inside of
+	<div id="circles">
+	--> <div id="yellow"></div> <--
+*/
+#squares #yellow {
+	background-color: yellow;
+}
+
+/* -----------------------
+
+	Circles
+
+   ------------------------ */
+
+/* this is for 
+   <div id="circles">
+*/
+#circles {
+    width: 110vw; /* a little larger than the window */
+    position: fixed;
+    top: -5vw; /* moves the div above the 
+    			   frame of the window */
+    left: -5vw; /* moves the div left of the 
+    			   frame of the window */
+    transform: roate(-15deg); /* yep, I'm rotating the whole
+    						   container ;) */
+}
+
+
+/* this is for all the <div> inside of
+	<div id="circles">
+	--> <div></div> <--
+*/
+#circles div {
+	height: 1vw;
+	width: 1vw;
+	background-color: rgb(112, 206, 122);
+	border-radius: 50%;
+	margin: 5vw;
+	float: left;
+}
+
+/* -----------------------
+
+	Something new:
+	Triangles !
+
+   ------------------------ */
+
+/* container for triangles */
+#triangles {
+	width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#triangles div { 
+	/* from 
+	   https://css-tricks.com/examples/ShapesOfCSS/
+	*/
+	width: 0;
+	height: 0;
+	/* "triangles" are just crazy border styles */
+    border-left: 3vw solid transparent;
+    border-right: 5vw solid transparent;
+    border-bottom: 50vw solid mistyrose;
+	float: left;
+    transform: rotate(20deg); /* time for fun */
+    box-shadow: 20px 20px 20px rgba(50,50,50,.5);
+    /* yes there are blend modes in CSS!! */
+    mix-blend-mode: overlay;
+}
+
+
+
+
+
