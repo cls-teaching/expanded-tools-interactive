@@ -175,6 +175,7 @@ section#people {
 
 img {
     max-width: 49vw;
+    width: 49vw;
     height: auto;
     text-align: center;
 }
