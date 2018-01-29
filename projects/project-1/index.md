@@ -24,8 +24,8 @@ HTML and CSS don't always have to convey information; they can be used as drawin
 ### Week 1 — Jan 28
 
 - introduce project
-- [Pattern Demo](/resources/demos/pattern)
-- [Positioning Demo](/resources/demos/positioning)
+- [Pattern Demo]({{site.baseurl}}/resources/demos/pattern)
+- [Positioning Demo]({{site.baseurl}}/resources/demos/positioning)
 - [CSS shapes cheat sheet](https://css-tricks.com/examples/ShapesOfCSS/)
 
 ### Week 2 — Feb 5
@@ -40,30 +40,30 @@ HTML and CSS don't always have to convey information; they can be used as drawin
 
 ## Inspiration
 
-![](/img/Karel-Martens-untitled-2.jpg)
+![]({{site.baseurl}}/img/Karel-Martens-untitled-2.jpg)
 
 Karel Martens
 
-![](/img/sol_lewitt_340.jpg)
+![]({{site.baseurl}}/img/sol_lewitt_340.jpg)
 
 Sol Lewitt
 
-![](/img/DP251467.jpg)
+![]({{site.baseurl}}/img/DP251467.jpg)
 
 Islamic tile work
 
-![](/img/044rt-1160x424.jpg)
+![]({{site.baseurl}}/img/044rt-1160x424.jpg)
 
 Mattisse cut outs
 
-![](/img/DP306732.jpg)
+![]({{site.baseurl}}/img/DP306732.jpg)
 
 William Morris wallpaper
 
-![](/img/05_269_focus_moniker_fungus_3_1.jpg)
+![]({{site.baseurl}}/img/05_269_focus_moniker_fungus_3_1.jpg)
 
 Conditional design, studio moniker
 
-![](/img/AOA54_1979.206.1039.jpg)
+![]({{site.baseurl}}/img/AOA54_1979.206.1039.jpg)
 
 Navajo wearing blanket

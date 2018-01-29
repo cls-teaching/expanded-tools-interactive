@@ -6,6 +6,6 @@ title: Resources
 ---
 ## Demos
 
-[Pattern Demo](/resources/demos/pattern)
+[Pattern Demo](demos/pattern) or [see it on GitHub](https://github.com/cls-teaching/expanded-tools-interactive/tree/master/resources/demos/pattern)
 
-[Positioning Demo](/resources/demos/positioning)
+[Positioning Demo](demos/positioning) or [see it on GitHub](https://github.com/cls-teaching/expanded-tools-interactive/blob/master/resources/demos/positioning/index.html)
