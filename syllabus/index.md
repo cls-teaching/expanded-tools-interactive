@@ -36,7 +36,7 @@ In addition to larger studio projects, you will have a series of in-class and ta
 
 ## 'Net Topics
 
-Each student will select a notable figure or moment in the history of the net for quick 5-minute presentation with 2-3 discussion questions. Please select a topic from [this google doc](tbd) or propose one of your own.
+Each student will select a notable figure or moment in the history of the net for quick 5-minute presentation with 2-3 discussion questions. Please select a topic from [this google doc](https://docs.google.com/document/d/1oPt4jETp0KAO4tPnrE2Q-2k6GzmHTUykHYVkAWWl0To/edit?usp=sharing) or propose one of your own.
 
 ## Evaluation
 
