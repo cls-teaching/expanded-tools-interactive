@@ -12,3 +12,12 @@ title: Resources
 
 ## Exercises & Code
 [50 Buttons Charette](exercise-charette.zip)
+
+## Reference
+[](https://learn.shayhowe.com/html-css/)
+
+[Mozilla — Getting started with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+
+[Mozilla — Intro to CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
+
+[Learn CSS Layout](http://learnlayout.com/)
