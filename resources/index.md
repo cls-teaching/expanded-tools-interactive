@@ -10,6 +10,8 @@ title: Resources
 
 [Positioning Demo](demos/positioning) or [see it on GitHub](https://github.com/cls-teaching/expanded-tools-interactive/blob/master/resources/demos/positioning/index.html)
 
+[Scrolling Demo](demos/scroll-position) or [see it on GitHub](https://github.com/cls-teaching/expanded-tools-interactive/blob/master/resources/demos/scroll-position/index.html)
+
 ## Exercises & Code
 [50 Buttons Charette](exercise-charette.zip)
 
