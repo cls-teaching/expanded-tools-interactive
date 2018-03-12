@@ -1,0 +1,56 @@
+<html>
+<head>
+  <title>Spinning Box</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script>
+
+    $(document).ready(function(){
+
+      // declaring our variable
+      var scrollPos;
+
+      // all scrolling animation has to be triggered by the scrolling of the window
+      $(window).scroll(function(){
+        // assigning a value to scrollPos— the distance from the body to
+        // the top of the screen
+        scrollPos = $('body').scrollTop();
+
+        // logging what scrollPos is to the console
+        console.log("Scroll Position is "+ scrollPos);
+
+        // using scrollPos to change some CSS
+        $('div').css("transform", "rotate(" + scrollPos + "deg)");
+
+
+      });
+
+
+
+    });
+
+  </script>
+
+  <style>
+
+    body {
+      height: 600vh;
+    }
+
+    div {
+      position: fixed;
+      width: 20vw;
+      height: 20vw;
+      background: red;
+      top: 30vh;
+      left: 40vw;
+
+    }
+
+  </style>
+</head>
+<body>
+
+  <div></div>
+
+</body>
+</html>
